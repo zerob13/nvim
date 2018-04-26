@@ -6,6 +6,7 @@ set backspace=indent,eol,start
 "设置历史记录条数
 set history=100
 set nobackup
+set nohlsearch
 set noswapfile
 "设置匹配模式 类似当输入一个左括号时会匹配相应的那个右括号
 set showmatch
@@ -77,7 +78,8 @@ Plug 'ervandew/supertab'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'myusuf3/numbers.vim'
 " Plug 'scrooloose/nerdtree.git'
-" Plug 'Xuyuanp/nerdtree-git-Plug'
+Plug 'scrooloose/nerdtree' 
+"Plug 'Xuyuanp/nerdtree-git-Plug'
 " html
 Plug 'vim-scripts/xml.vim'
 Plug 'mattn/emmet-vim'
